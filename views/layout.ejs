@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=typeof title == 'undefined' ? 'MIS' : title%></title>
+    <link rel="icon" href="/images/fav.png" type='image/png'>
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/home/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/styles/plugin/dropzone.css">
+    <link rel="stylesheet" href="/styles/plugin/jquery.miniColors.css">
+    <link rel="stylesheet" href="/styles/plugin/jquery.simplecolorpicker.css">
+    <link rel="stylesheet" href="/js/dependencies/datatables/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="/js/dependencies/datatables/builder/Buttons-1.2.1/css/buttons.bootstrap.css">
+    <link rel="stylesheet" href="/js/dependencies/datatables/builder/Select-1.2.0/css/select.bootstrap.css">
+    <link rel="stylesheet" href="/js/dependencies/datatables/builder/FixedHeader-3.1.2/css/fixedHeader.bootstrap.css">
+    <link rel="stylesheet" href="/js/dependencies/bootstrap-table/bootstrap-table.css">
+    <link rel="stylesheet" href="/js/dependencies/boostrap-editable/bootstrap-editable.css">
+    <!--STYLES END-->
+
+    <!--<link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">-->
+  </head>
+
+  <body>
+
+    <script>
+      var baseUrl = "<%= sails.config.globals.baseUrl %>";
+    </script>
+
+
+    <!--TEMPLATES-->
+    
+    <!--TEMPLATES END-->
+
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/jquery.2.2.4.js"></script>
+    <script src="/js/dependencies/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="/js/dependencies/datatables/builder/Buttons-1.2.1/js/dataTables.buttons.js"></script>
+    <script src="/js/dependencies/datatables/builder/Buttons-1.2.1/js/buttons.bootstrap.js"></script>
+    <script src="/js/dependencies/datatables/builder/Select-1.2.0/js/dataTables.select.js"></script>
+    <script src="/js/dependencies/datatables/builder/FixedHeader-3.1.2/js/dataTables.fixedHeader.js"></script>
+    <script src="/js/dependencies/dropzone.js"></script>
+    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/dependencies/bootstrap-table/bootstrap-table.js"></script>
+    <script src="/js/dependencies/boostrap-editable/bootstrap-editable.min.js"></script>
+    <script src="/js/dependencies/clipboard.min.js"></script>
+    <script src="/js/dependencies/countUp.js"></script>
+    <script src="/js/dependencies/datatables.lang.js"></script>
+    <script src="/js/dependencies/jquery.blockUI.js"></script>
+    <script src="/js/dependencies/jquery.helper.js"></script>
+    <script src="/js/dependencies/jquery.lazy.js"></script>
+    <script src="/js/dependencies/jquery.scrollTo.min.js"></script>
+    <script src="/js/dependencies/jquery.twbsPagination.js"></script>
+    <script src="/js/dependencies/lodash.min.js"></script>
+    <script src="/js/dependencies/lzma_worker-min.js"></script>
+    <script src="/js/dependencies/moment.min.js"></script>
+    <script src="/js/dependencies/noty.min.js"></script>
+    <script src="/js/dependencies/numeral.min.js"></script>
+    <script src="/js/dependencies/offline.min.js"></script>
+    <script src="/js/dependencies/sweetalert.min.js"></script>
+    <script src="/js/init.js"></script>
+    <script src="/js/addProduct.js"></script>
+    <script src="/js/auth.js"></script>
+    <script src="/js/bootstrap-slider.js"></script>
+    <script src="/js/bootstrap-slider.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/manager.js"></script>
+    <script src="/js/uploader.js"></script>
+    <script src="/js/modules/add_remove_item.js"></script>
+    <script src="/js/modules/jquery.js"></script>
+    <script src="/js/modules/jquery.lazyload.js"></script>
+    <script src="/js/modules/order.js"></script>
+    <script src="/js/modules/product.js"></script>
+    <script src="/js/modules/scp/order/update_order.js"></script>
+    <script src="/js/modules/scp/profile.js"></script>
+    <script src="/js/modules/scp/scp_dashboard.js"></script>
+    <script src="/js/modules/selectCountry.js"></script>
+    <script src="/js/modules/user.js"></script>
+    <!--SCRIPTS END-->
+
+    <!--<script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>-->
+    <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>-->
+
+    <%- body %>
+  </body>
+</html>
